@@ -1,6 +1,6 @@
 #Project Description
 <p align="center">
-  <img src="study.jpg"
+  <img src="study.jpeg"
        alt="Template">
 </p>
 
