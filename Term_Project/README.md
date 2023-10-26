@@ -10,11 +10,11 @@ Study Bud is a new chat app designed specifically for students. It is a place wh
 
 With Study Bud, students can:
 
-*Find study buddies: Study Bud makes it easy for students to find other students who are interested in studying the same subjects. Students can create profiles and search for other students based on their interests, course load, and availability.
+* Find study buddies: Study Bud makes it easy for students to find other students who are interested in studying the same subjects. Students can create profiles and search for other students based on their interests, course load, and availability.
    
-*Form study groups: Once students have found study buddies, they can easily form study groups. Study Bud provides a variety of tools to help students collaborate on their studies, such as group chat and file sharing.
+* Form study groups: Once students have found study buddies, they can easily form study groups. Study Bud provides a variety of tools to help students collaborate on their studies, such as group chat and file sharing.
    
-*Get help with their studies: Study Bud also provides a platform for students to get help with their studies. Students can ask questions and post study notes.
+* Get help with their studies: Study Bud also provides a platform for students to get help with their studies. Students can ask questions and post study notes.
    
 Study Bud is a valuable tool for students of all levels. Whether you are a high school student just starting out, or a college student preparing for finals, Study Bud can help you succeed in your studies in a safe and secure environment.
 
