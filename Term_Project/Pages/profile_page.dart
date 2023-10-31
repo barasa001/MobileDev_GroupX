@@ -1,42 +1,54 @@
-import 'package:flutter/material.dart':
+import 'package:flutter/material.dart';
 
+void main() {
+  runApp(MyApp());
+}
 
-class ProfilePage extends StatelessWidget {
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: UserPage(),
+    );
+  }
+}
+
+class UserPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Profile'),
+        title: Text('User Page'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+          children: <Widget>[
             CircleAvatar(
               radius: 50,
-              backgroundImage: AssetImage('assets/profile_image.png'),
+              backgroundImage: NetworkImage('https://example.com/user_avatar.jpg'),
             ),
-            SizedBox(height: 16),
+            SizedBox(height: 20),
             Text(
-              'John Doe',
+              'User Name',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
-            SizedBox(height: 8),
+            SizedBox(height: 10),
             Text(
-              'Software Developer',
-              style: TextStyle(fontSize: 18),
+              'user@example.com',
+              style: TextStyle(fontSize: 16, color: Colors.grey),
             ),
-            SizedBox(height: 16),
-            ListTile(
-              leading: Icon(Icons.email),
-              title: Text('john.doe@example.com'),
-            ),
-            ListTile(
-              leading: Icon(Icons.phone),
-              title: Text('+1 123-456-7890'),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                // Add your logout or profile editing logic here.
+              },
+              child: Text('Logout'),
             ),
           ],
         ),
       ),
-    );:}
+    );
+  }
 }
+
